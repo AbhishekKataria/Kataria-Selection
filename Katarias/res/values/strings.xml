@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kataria\'s</string>
+    <string name="linkToRegister">New to Shop? Register here.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="location">Location</string>
+    <string name="address">Katarias Selection&quot;\n45,Cathedral Road&quot;\nGopalapuram&quot;\nChennai – 600 086.&quot;\nPh: 044 – 2811 1182</string>
+    <string name="login">Login</string>
+    <string name="img_desc">Image</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome to Kataria\'s</string>
+    <string name="view_maps">Click to view maps</string>
+    <string name="text_desc">"It is the best place to shop for those looking for fancy Bridal Lehangas, Designer &amp; Embroidered Sarees, and Salwar Kameez."</string>
+    <string name="em_eg">abc@gmail.com</string>
+    <string name="send_bt">Send</string>
+    <string name="add_to_cart" >Add to Cart</string>
+    <string name="generate_bill">Generate Bill</string>
+    <string name="full_name">Full Name</string>
+    <string name="linkToLogin">Already has account! Login here</string>
+    <string name="remove_from_cart">Remove from Cart</string>
+    <string name="bill_title">Your Bill</string>
+    <string name="Rs">\u20B9</string>
+   	<string name="S_no">S.No</string>
+   	<string name="Product_id">Item</string>
+   	<string name="Price">Price</string>
+   	<string name="purchase">Purchase</string>
+   	<string name="Address">Address</string>
+    <string name="Phone">Mobile No.</string>
+    <string name="Phone_no">1234567890</string>
+    <string name="help">Help</string>
+    <string name="helpdesc">Hola :-) \n \n \t \t Welcome to Kataria\'s Selection android application. \n\n The application contains three tabs each for login,products and contact. \n\n\tThe login page allows a user to login and can also navigate to register page for new user. Note for adding products to cart, user must first login.\n\n\tProducts tab shows a gallery of images and gives desription of the image with price.\nPress left tap key to \n\t\t Add product to cart\n\t\t Remove from cart\n\t\t Generate Bill\n\n\tContact tab lets you send a message to store and see the store details with Google map along.\n\n\t So what you are waiting for, go get started for Shopping!</string>
+    
+    
+</resources>

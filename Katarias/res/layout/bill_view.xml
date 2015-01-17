@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+
+    <ScrollView
+        android:id="@+id/bill_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/bill_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:textAlignment="gravity" >
+            
+        	<TableRow 
+            	android:id="@+id/header_row"
+            	android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="2dp"
+				android:background="@color/black"  >
+				
+            	<TextView
+            	    android:id="@+id/billview_sno"
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:text="@string/S_no"
+            	    android:gravity="center"
+            	    android:textAlignment="gravity"
+            	    android:background="@color/white"
+            	    android:layout_margin="2dp"
+            	    android:paddingLeft="20dp"
+            	    android:paddingTop="10dp"
+            	    android:paddingBottom="10dp"
+            	    android:paddingRight="20dp" />
+        	    <TextView
+            	    android:id="@+id/billview_item"
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:text="@string/Product_id"
+            	    android:gravity="center"
+            	    android:textAlignment="gravity"
+            	    android:background="@color/white"
+            	    android:layout_margin="2dp"
+            	    android:paddingLeft="20dp"
+            	    android:paddingTop="10dp"
+            	    android:paddingBottom="10dp"
+            	    android:paddingRight="20dp" />
+            	     
+        	    <TextView
+            	    android:id="@+id/billview_price"
+            	    android:layout_width="100dp"
+            	    android:layout_height="wrap_content"
+            	    android:text="@string/Price"
+            	    android:gravity="center"
+            	    android:textAlignment="gravity"
+            	    android:background="@color/white"
+            	    android:layout_margin="2dp"
+            	    android:paddingLeft="20dp"
+            	    android:paddingTop="10dp"
+            	    android:paddingBottom="10dp"
+            	    android:paddingRight="25dp" />
+        	    
+        	</TableRow>
+        
+        </TableLayout>
+     
+        
+    <TextView 
+        
+        android:id="@+id/Address"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"       
+     	android:text="@string/Address"
+    	android:layout_marginTop="12dp"
+    	
+    	android:layout_marginBottom="10dp"
+
+        />    
+        
+    <EditText
+        android:id="@+id/bill_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/Address"
+        android:inputType="textPostalAddress" />
+    
+    <TextView 
+        android:id="@+id/Phone"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"       
+     	android:text="@string/Phone"
+    	android:layout_marginBottom="10dp"
+        />    
+        
+    <EditText
+        android:id="@+id/bill_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Phone_no"
+        android:inputType="phone" />
+   
+      <Button
+        android:id="@+id/bt_purchase"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/purchase"
+        android:textAlignment="gravity"
+        />
+      
+      </LinearLayout>
+        
+    </ScrollView>
+         
+</RelativeLayout>

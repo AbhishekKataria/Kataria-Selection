@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          tools:context=".ContactActivity"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+       
+ <ScrollView
+     	 android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+      
+ <LinearLayout
+     android:id="@+id/contact_email_message"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@drawable/bg"
+     android:orientation="vertical"
+     android:padding="10dip" >
+
+     <!-- Email Label -->
+
+     <TextView
+         android:id="@+id/email_email"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/email"
+         android:textColor="#372c24" />
+
+     <EditText
+         android:id="@+id/email"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dip"
+         android:layout_marginTop="5dip"
+         android:hint="@string/em_eg"
+         android:inputType="textEmailAddress"
+         android:singleLine="true" />
+
+     <!-- Subject Label -->
+
+     <TextView
+         android:id="@+id/email_subject"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/subject"
+         android:textColor="#372c24" />
+
+     <EditText
+         android:id="@+id/subject"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dip"
+         android:layout_marginTop="5dip"
+         android:hint="@string/subject"
+         android:inputType="text"
+         android:singleLine="true" />
+
+     <!-- Message Label -->
+
+     <TextView
+         android:id="@+id/email_message"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/message"
+         android:textColor="#372c24" />
+
+     <EditText
+         android:id="@+id/message"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp"
+         android:ems="70"
+         android:inputType="textMultiLine"
+         android:hint="@string/message" >
+
+         <requestFocus />
+     </EditText>
+
+     <Button
+         android:id="@+id/bt_sendmsg"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dip"
+         android:text="@string/send_bt" />
+
+     <RelativeLayout
+         android:layout_width="280dp"
+         android:layout_height="0dip"
+         android:layout_weight="0.37" >
+
+         <TextView
+             android:id="@+id/address"
+             android:layout_width="147dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dip"
+             android:text="@string/address"
+             android:textColor="#372c24" />
+
+         <ImageButton
+             android:id="@+id/mapbutton"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="58dp"
+             android:layout_toRightOf="@+id/address"
+             android:background="#FFFFFF"
+             android:contentDescription="@string/view_maps"
+             android:src="@drawable/map_icon" />
+     </RelativeLayout>
+ </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="images">
+        <item>http://www.katariasarees.com/colorbox/content/2304.jpg</item>
+        <item>http://www.katariasarees.com/colorbox/content/2307.jpg</item>
+        <item>http://www.katariasarees.com/colorbox/content/2308.jpg</item>
+        <item>http://www.katariasarees.com/colorbox/content/2309.jpg</item>
+    </string-array>
+    
+</resources>

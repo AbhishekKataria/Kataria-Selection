@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/addToCart"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/add_to_cart"/>
+    
+    <item 
+        android:id="@+id/removeProduct"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/remove_from_cart"/>
+    
+    <item
+        android:id="@+id/generateBill"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/generate_bill"/>
+    
+</menu>
